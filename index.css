@@ -724,15 +724,6 @@
   margin: 63px auto 0;
 }
 
-.u-section-5 .u-text-2 {
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
-  margin: 21px auto 0;
-}
-
 .u-section-5 .u-image-1 {
   width: 549px;
   height: 526px;
@@ -777,7 +768,7 @@
   padding: 0;
 }
 
-.u-section-5 .u-text-3 {
+.u-section-5 .u-text-2 {
   margin: 30px auto 0;
 }
 
@@ -801,7 +792,7 @@
   padding: 0;
 }
 
-.u-section-5 .u-text-4 {
+.u-section-5 .u-text-3 {
   margin: 30px auto 0;
 }
 
@@ -825,7 +816,7 @@
   padding: 0;
 }
 
-.u-section-5 .u-text-5 {
+.u-section-5 .u-text-4 {
   margin: 30px auto 0;
 }
 
@@ -849,13 +840,14 @@
   padding: 0;
 }
 
-.u-section-5 .u-text-6 {
+.u-section-5 .u-text-5 {
   margin: 30px auto 0;
 }
 
 @media (max-width: 1399px) {
   .u-section-5 .u-image-1 {
     width: 369px;
+    margin-top: 92px;
   }
 }
 
@@ -882,12 +874,6 @@
     margin-top: 65px;
   }
 
-  .u-section-5 .u-text-2 {
-    width: auto;
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-
   .u-section-5 .u-image-1 {
     height: 546px;
     margin-right: initial;
@@ -906,7 +892,7 @@
     min-height: 536px;
   }
 
-  .u-section-5 .u-text-3 {
+  .u-section-5 .u-text-2 {
     margin-top: 3px;
   }
 }
@@ -914,6 +900,13 @@
 @media (max-width: 767px) {
   .u-section-5 .u-text-1 {
     margin-top: 60px;
+  }
+
+  .u-section-5 .u-image-1 {
+    margin-top: 117px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-5 .u-repeater-1 {
@@ -945,6 +938,13 @@
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
     min-height: 826px;
+  }
+
+  .u-section-5 .u-image-1 {
+    margin-top: 143px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-5 .u-repeater-1 {
@@ -1841,7 +1841,12 @@
 
 @media (max-width: 1399px) {
   .u-section-6 .u-text-1 {
-    margin-top: 241px;
+    width: auto;
+    margin-top: 84px;
+  }
+
+  .u-section-6 .u-list-1 {
+    margin-top: 74px;
   }
 
   .u-section-6 .u-repeater-1 {
@@ -2733,7 +2738,7 @@
   .u-section-7 .u-image-1 {
     width: 64px;
     height: 64px;
-    margin-top: -65px;
+    margin-top: 0px;
     margin-right: auto;
     margin-left: 89px;
   }
