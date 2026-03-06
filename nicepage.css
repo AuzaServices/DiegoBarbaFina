@@ -32438,7 +32438,7 @@ section.u-white:before,
 .u-white.u-sidenav:before,
 .u-container-layout.u-container-layout.u-white:before,
 .u-table-alt-white tr:nth-child(even) {
-  color: #111111;
+  color: #ecb321;
   background-color: #ffffff;
 }
 .u-input.u-white,
@@ -32504,8 +32504,8 @@ section.u-black:before,
 .u-black.u-sidenav:before,
 .u-container-layout.u-container-layout.u-black:before,
 .u-table-alt-black tr:nth-child(even) {
-  color: #ffffff;
-  background-color: #000000;
+  color: #000000;
+background: linear-gradient(to right, #E5B800 50%, #FECA01) !important;
 }
 .u-input.u-black,
 .u-field-input.u-black,
@@ -44173,7 +44173,7 @@ li.active > a.u-button-style.u-text-white,
 li.active > a.u-button-style.u-text-white[class*="u-border-"],
 a.u-button-style.u-text-white,
 a.u-button-style.u-text-white[class*="u-border-"] {
-  color: #ffffff !important;
+  color: #ecb321 !important;
   
   
   
@@ -44221,7 +44221,7 @@ a.u-button-style.u-button-style.active > .u-text-active-white[class*="u-border-"
   color: #ffffff !important;
 }
 .u-text-white .u-svg-link {
-  fill: #ffffff;
+  fill: #000000;
 }
 .u-text-hover-white:hover .u-svg-link,
 .u-text-hover-white:focus .u-svg-link,
@@ -45645,8 +45645,8 @@ a.u-link.u-text-hover-color-var:hover {
         .u-button-style.u-custom-color-2,
         .u-button-style.u-custom-color-2[class*="u-border-"]
         {
-            color: #111111 !important;
-            background-color: #feca01 !important;
+            color: #000000 !important;
+            background-color: #FECA01 !important;
         }
 
         .u-button-style.u-custom-color-2:hover,
@@ -45920,7 +45920,7 @@ a.u-link.u-text-hover-color-var:hover {
         a.u-button-style.u-text-custom-color-2,
         a.u-button-style.u-text-custom-color-2[class*="u-border-"]
         {
-            color: #feca01 !important;
+            color: #000000 !important;
             
             
             
@@ -45971,7 +45971,7 @@ a.u-link.u-text-hover-color-var:hover {
         .u-popupmenu-items.u-popupmenu-items.u-text-active-custom-color-2 .u-nav-link.active,
         .u-calendar-time-list .u-calendar-time-slot.u-text-active-custom-color-2.u-active
         {
-            color: #feca01 !important;
+            color: #c19900 !important;
         }
 
         .u-text-custom-color-2 .u-svg-link {
