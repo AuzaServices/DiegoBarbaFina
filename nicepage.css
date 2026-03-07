@@ -33429,7 +33429,7 @@ section.u-grey-80:before,
 .u-container-layout.u-container-layout.u-grey-80:before,
 .u-table-alt-grey-80 tr:nth-child(even) {
   color: #ffffff;
-  background-color: #333333;
+background-image: linear-gradient(to bottom, #F4C300, rgba(26, 26, 26, 1));
 }
 .u-input.u-grey-80,
 .u-field-input.u-grey-80,
@@ -33495,7 +33495,11 @@ section.u-grey-90:before,
 .u-container-layout.u-container-layout.u-grey-90:before,
 .u-table-alt-grey-90 tr:nth-child(even) {
   color: #ffffff;
-  background-color: #1a1a1a;
+    background: linear-gradient(to bottom, rgba(26, 26, 26, 1), #F4C300);
+  background-attachment: fixed; /* mantém o degradê fixo ao rolar */
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .u-input.u-grey-90,
 .u-field-input.u-grey-90,

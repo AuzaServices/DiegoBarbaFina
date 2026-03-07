@@ -172,9 +172,9 @@
     padding: 7px 15px 8px;
   }
 } .u-section-2 {
-  background-position: 50% 50%;
+    background: linear-gradient(to bottom, rgba(26, 26, 26, 1), #F4C300);
+  background-attachment: fixed; /* mantém o degradê fixo ao rolar */
   background-repeat: no-repeat;
-  background-image: linear-gradient(to bottom, rgba(26, 26, 26, 1), rgba(26, 26, 26, 1));
   background-size: cover;
 }
 
